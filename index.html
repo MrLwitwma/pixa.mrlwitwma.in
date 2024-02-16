@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap">
+    <meta name="description" content="Pixa is an Image Generating AI. Type something in the prompt generate the Image.">
+    <title>Pixa (Pixel Art Generator)</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="background">
+        Pixa
+    </div>
+    <header>
+        <h1>Pixa(3.0)</h1>
+        <!-- <h3>Pixel Art Generator</h3> -->
+        <div id="more">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="others">
+            <button id="close" >Close</button>
+            <button id="delete">Delete</button>
+            <button id="settings">Settings</button>
+            <a href="/api">API</a>
+            <a href="/help">Help</a>
+            <a href="/feedback">Feedback</a>
+        </div>
+    </header>
+    <div class="images-container">
+        <div id="images">
+            <div class="content">
+                <img src="/static/test.png">
+                <p>A picture of MrLwitwma not smiling</p>
+            </div>
+            <div class="content">
+                <img src="/static/test.png">
+                <p>A picture of MrLwitwma not smiling</p>
+            </div>
+            <div class="content">
+                <img src="/static/test.png">
+                <p>A picture of MrLwitwma not smiling</p>
+            </div>
+            <div class="content">
+                <img src="/static/test.png">
+                <p>A picture of MrLwitwma not smiling</p>
+            </div>
+            <div class="content">
+                <img src="/static/test.png">
+                <p>A picture of MrLwitwma not smiling</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="prompt-container">
+            <textarea name="prompt" id="user-prompt" placeholder="Enter Prompt...."></textarea>
+            <button id="send">Send</button>
+        </div>
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>
